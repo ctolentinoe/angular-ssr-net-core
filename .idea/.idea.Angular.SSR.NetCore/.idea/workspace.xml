@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Agregar dependencia para que primero sea angular y luego NetCore">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dotnet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dotnet.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unit-front" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-front" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618521603451</updated>
-      <workItem from="1618521608424" duration="4280000" />
+      <workItem from="1618521608424" duration="4922000" />
     </task>
     <task id="LOCAL-00001" summary="--Fix Actions: Cambiar la version del NetCore">
       <created>1618521652061</created>
@@ -131,10 +132,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="70" key="DiffContextDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618522659872" />
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618525911826">
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618526181341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618525911826" />
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618526181341" />
     <state x="546" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618521857581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
