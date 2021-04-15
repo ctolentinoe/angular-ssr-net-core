@@ -63,10 +63,16 @@ jobs:
     needs: build-net-core
     runs-on: ubuntu-latest
     steps:
+        
+      - name: Download ArtifactsBuild
+        uses: actions/download-artifact@v2
+        with:
+          name: my-artifact
+        
       - name: Deploy to App Service
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_UAT_PUBLISH_PROFILE }}
-          package: '${{ env.AZURE_WEBAPP_PATH }}/angularssr'
+          package: my-artifact
   
