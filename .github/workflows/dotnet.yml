@@ -16,7 +16,6 @@ env:
 jobs:
   ci-angular:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ env.NODE_VERSION }}
@@ -37,8 +36,8 @@ jobs:
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
   build-net-core:
+    needs: ci-angular
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
 
