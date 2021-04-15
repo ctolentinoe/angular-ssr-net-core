@@ -11,10 +11,25 @@ env:
   AZURE_WEBAPP_NAME: frontend-unit-core-uat
   AZURE_WEBAPP_PATH: '.'
   DOTNET_VERSION: 3.1.201
+  NODE_VERSION: 12.x
 
 jobs:
+  ci-angular:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+       - name: 'npm install and build'
+         run: |
+          npm install
+          npm run test
+          npm run build
+  
   build-net-core:
-
     runs-on: ubuntu-latest
 
     steps:
