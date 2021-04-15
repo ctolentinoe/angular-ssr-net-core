@@ -68,11 +68,12 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: ArtifactsBuild
+          path : ${{ env.AZURE_WEBAPP_PATH }}/angularssr
         
       - name: Deploy to App Service
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_UAT_PUBLISH_PROFILE }}
-          package: ArtifactsBuild
+          package: ${{ env.AZURE_WEBAPP_PATH }}/angularssr
   
