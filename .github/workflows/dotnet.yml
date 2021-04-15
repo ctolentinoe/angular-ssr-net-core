@@ -16,6 +16,9 @@ env:
 jobs:
   ci-angular:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ClientApp
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ env.NODE_VERSION }}
@@ -24,10 +27,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           
       - name: 'Install Dependency'
-        working-directory: ./app/ClientApp
-        run: |
-         cd ClientApp
-         npm install
+        run: npm install
         
       - name: 'Build Angular app'
         run: |
