@@ -33,9 +33,6 @@ jobs:
       - name: 'Build Angular app'
         run: npm run build
 
-      - name: 'Testing'
-        run: npm run test
-
   build-net-core:
     needs: ci-angular
     runs-on: ubuntu-latest
