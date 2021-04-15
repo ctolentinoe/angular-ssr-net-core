@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Cambiar la version del NetCore">
+    <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Configurando Deploy hacia App Service">
       <change beforePath="$PROJECT_DIR$/.github/workflows/dotnet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dotnet.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Angular.SSR.NetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Angular.SSR.NetCore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unit-front" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-front" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618521603451</updated>
-      <workItem from="1618521608424" duration="646000" />
+      <workItem from="1618521608424" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="--Fix Actions: Cambiar la version del NetCore">
       <created>1618521652061</created>
@@ -121,8 +120,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <MESSAGE value="--Fix Actions: Cambiar la version del NetCore" />
-    <option name="LAST_COMMIT_MESSAGE" value="--Fix Actions: Cambiar la version del NetCore" />
+    <MESSAGE value="--Fix Actions: Configurando Deploy hacia App Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="--Fix Actions: Configurando Deploy hacia App Service" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618522355872">
