@@ -28,10 +28,11 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       
-    - name: Build And Publish
-      run:
-        dotnet build --configuration release
-        dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH }}/angularssr'
+    - name: Build
+      run: dotnet build --configuration release
+        
+    - name: Publish
+      run: dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH }}/angularssr'
 
     - name: Deploy to App Service
       uses: azure/webapps-deploy@v2
