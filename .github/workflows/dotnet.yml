@@ -25,13 +25,13 @@ jobs:
           
       - name: 'Install Dependency'
         run: |
-        cd ClientApp
-        npm install
+         cd ClientApp
+         npm install
         
       - name: 'Build Angular app'
         run: |
-        cd ClientApp  
-        npm run build
+         cd ClientApp  
+         npm run build
 
   build-net-core:
     needs: ci-angular
