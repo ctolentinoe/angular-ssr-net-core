@@ -12,13 +12,14 @@ env:
   AZURE_WEBAPP_PATH: '.'
   DOTNET_VERSION: 3.1.201
   NODE_VERSION: '12.x'
+  APP_NAME_PROJECT: Angular.SSR.NetCore
 
 jobs:
   ci-angular:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Angular.SSR.NetCore/ClientApp
+        working-directory: ${{ env.APP_NAME_PROJECT }}/ClientApp
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ env.NODE_VERSION }}
@@ -30,9 +31,10 @@ jobs:
         run: npm install
         
       - name: 'Build Angular app'
-        run: |
-         cd ClientApp  
-         npm run build
+        run: npm run build
+
+      - name: 'Testing'
+        run: npm run test
 
   build-net-core:
     needs: ci-angular
