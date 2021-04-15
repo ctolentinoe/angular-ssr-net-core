@@ -16,42 +16,49 @@ env:
 jobs:
   ci-angular:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ env.NODE_VERSION }}
-       - name: 'npm install and build'
-         run: |
+      - name: 'npm install and build'
+        run: |
+          # Build and test the project, then
+          # deploy to Azure Web App.
           npm install
-          npm run test
           npm run build
+      - name: 'Deploy to Azure WebApp'
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_DEV_PUBLISH_PROFILE }}
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          
+    build-net-core:
+      runs-on: ubuntu-latest
   
-  build-net-core:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: ${{ env.DOTNET_VERSION }}
-        
-    - name: Restore dependencies
-      run: dotnet restore
+      steps:
+      - uses: actions/checkout@v2
       
-    - name: Build
-      run: dotnet build --configuration release
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+          
+      - name: Restore dependencies
+        run: dotnet restore
         
-    - name: Publish
-      run: dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH }}/angularssr'
-
-    - name: Deploy to App Service
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_UAT_PUBLISH_PROFILE }}
-        package: '${{ env.AZURE_WEBAPP_PATH }}/angularssr'
+      - name: Build
+        run: dotnet build --configuration release
+          
+      - name: Publish
+        run: dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH }}/angularssr'
+  
+      - name: Deploy to App Service
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_UAT_PUBLISH_PROFILE }}
+          package: '${{ env.AZURE_WEBAPP_PATH }}/angularssr'
