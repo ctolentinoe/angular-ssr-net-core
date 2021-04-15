@@ -11,7 +11,7 @@ env:
   AZURE_WEBAPP_NAME: frontend-unit-core-uat
   AZURE_WEBAPP_PATH: '.'
   DOTNET_VERSION: 3.1.201
-  NODE_VERSION: 12.x
+  NODE_VERSION: '12.x'
 
 jobs:
   ci-angular:
