@@ -30,7 +30,7 @@ jobs:
       - name: 'Install Dependency'
         run: npm install
         
-      - name: 'Install Dependency'
+      - name: 'Run Unit And Integration Test'
         run: npm run test-headless
 
       - name: 'Build Angular app'
