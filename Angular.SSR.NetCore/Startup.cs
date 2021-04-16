@@ -63,7 +63,6 @@ namespace Angular.SSR.NetCore
 
                 if (env.IsDevelopment())
                 {
-                    spa.Options.StartupTimeout = new System.TimeSpan(0, 0, 80);
                     spa.UseAngularCliServer(npmScript: "start");
                 }
             });

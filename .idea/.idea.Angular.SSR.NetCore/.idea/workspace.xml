@@ -64,7 +64,7 @@
     <property name="ts.external.directory.path" value="C:\Users\User\Documents\Projects\angular-ssr-net-core\Angular.SSR.NetCore\ClientApp\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.test-headless">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Angular.SSR.NetCore: IIS Express">
     <configuration name="Angular.SSR.NetCore" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -144,7 +144,7 @@
       <workItem from="1618521608424" duration="7674000" />
       <workItem from="1618529371931" duration="106000" />
       <workItem from="1618529526822" duration="4503000" />
-      <workItem from="1618568974785" duration="1344000" />
+      <workItem from="1618568974785" duration="1675000" />
     </task>
     <task id="LOCAL-00001" summary="--Fix Actions: Cambiar la version del NetCore">
       <created>1618521652061</created>
@@ -215,10 +215,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1481" height="541" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569771515" />
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618570010500">
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618570339870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618570010500" />
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618570339870" />
     <state x="546" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618521857581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
