@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Angular SSR run Test, delete artifact">
+    <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Angular SSR run Test, add artifact">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dotnet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dotnet.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Angular.SSR.NetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Angular.SSR.NetCore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unit-front" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-front" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +45,9 @@
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/angular.json" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.spec.ts" />
-        <option value="$PROJECT_DIR$/.github/workflows/dotnet.yml" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/Startup.cs" />
+        <option value="$PROJECT_DIR$/.github/workflows/dotnet.yml" />
       </list>
     </option>
   </component>
@@ -142,7 +144,7 @@
       <workItem from="1618521608424" duration="7674000" />
       <workItem from="1618529371931" duration="106000" />
       <workItem from="1618529526822" duration="4503000" />
-      <workItem from="1618568974785" duration="3008000" />
+      <workItem from="1618568974785" duration="3656000" />
     </task>
     <task id="LOCAL-00001" summary="--Fix Actions: Cambiar la version del NetCore">
       <created>1618521652061</created>
@@ -166,6 +168,16 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -191,7 +203,8 @@
     <MESSAGE value="--Fix Actions: Angular SSR" />
     <MESSAGE value="--Fix Actions: Angular SSR run Test" />
     <MESSAGE value="--Fix Actions: Angular SSR run Test, delete artifact" />
-    <option name="LAST_COMMIT_MESSAGE" value="--Fix Actions: Angular SSR run Test, delete artifact" />
+    <MESSAGE value="--Fix Actions: Angular SSR run Test, add artifact" />
+    <option name="LAST_COMMIT_MESSAGE" value="--Fix Actions: Angular SSR run Test, add artifact" />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="70" key="DiffContextDialog" timestamp="1618522659872">
@@ -214,10 +227,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1481" height="541" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618571113924" />
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618571704713">
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618572313519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618571704713" />
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618572313519" />
     <state x="546" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618521857581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

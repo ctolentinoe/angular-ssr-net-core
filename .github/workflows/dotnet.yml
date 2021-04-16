@@ -31,7 +31,7 @@ jobs:
         run: npm install
         
       - name: 'Install Dependency'
-        run: npm test-headless  
+        run: npm run test-headless
 
       - name: 'Build Angular app'
         run: npm run build
