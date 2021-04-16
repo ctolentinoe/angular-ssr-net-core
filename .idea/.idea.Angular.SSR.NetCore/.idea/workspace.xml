@@ -20,6 +20,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Creando el artefacts y descargandolo para subirlo">
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/main.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.server.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/.idea/.idea.Unit.Angular.SSR/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/app.server.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/counter/counter.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/counter/counter.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/counter/counter.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/fetch-data/fetch-data.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/fetch-data/fetch-data.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/nav-menu/nav-menu.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/app/nav-menu/nav-menu.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/tsconfig.server.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/ClientApp/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/Pages/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/Pages/Error.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/Pages/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/Unit.Angular.SSR.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/Unit.Angular.SSR/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit.Angular.SSR/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Angular.SSR.NetCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Angular.SSR.NetCore/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Angular.SSR.NetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Angular.SSR.NetCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/e2e/tsconfig.e2e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/e2e/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.server.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.server.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/counter/counter.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/counter/counter.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/counter/counter.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/fetch-data/fetch-data.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/fetch-data/fetch-data.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/nav-menu/nav-menu.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/nav-menu/nav-menu.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/tsconfig.server.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unit-front" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-front" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +151,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.github/workflows/dotnet.yml" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.app.json" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.server.json" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/main.ts" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/main.server.ts" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/Startup.cs" />
       </list>
     </option>
   </component>
@@ -50,7 +172,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Angular.SSR.NetCore">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Angular.SSR.NetCore: IIS Express">
     <configuration name="Angular.SSR.NetCore" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -81,6 +203,32 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="build:ssr" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:ssr" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve:ssr" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve:ssr" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve:ssr" />
+        <item itemvalue="npm.build:ssr" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,7 +238,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618521603451</updated>
-      <workItem from="1618521608424" duration="7146000" />
+      <workItem from="1618521608424" duration="7674000" />
+      <workItem from="1618529371931" duration="106000" />
+      <workItem from="1618529526822" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="--Fix Actions: Cambiar la version del NetCore">
       <created>1618521652061</created>
@@ -105,7 +255,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -117,6 +267,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
@@ -134,10 +285,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="70" key="DiffContextDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618522659872" />
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618528600553">
+    <state width="1481" height="475" key="GridCell.Tab.0.bottom" timestamp="1618531392397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618528600553" />
+    <state width="1481" height="475" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618531392397" />
+    <state width="1481" height="475" key="GridCell.Tab.0.center" timestamp="1618531392397">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="475" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618531392397" />
+    <state width="1481" height="475" key="GridCell.Tab.0.left" timestamp="1618531392397">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="475" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618531392397" />
+    <state width="1481" height="475" key="GridCell.Tab.0.right" timestamp="1618531392397">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="475" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618531392397" />
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618529023895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618529023895" />
     <state x="546" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618521857581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
