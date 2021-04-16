@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Angular SSR">
-      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.spec.ts" afterDir="false" />
+    <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Angular SSR run Test">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dotnet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dotnet.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unit-front" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-front" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.github/workflows/dotnet.yml" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.app.json" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/main.server.ts" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.ts" />
@@ -48,6 +46,7 @@
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.spec.ts" />
+        <option value="$PROJECT_DIR$/.github/workflows/dotnet.yml" />
       </list>
     </option>
   </component>
@@ -144,7 +143,7 @@
       <workItem from="1618521608424" duration="7674000" />
       <workItem from="1618529371931" duration="106000" />
       <workItem from="1618529526822" duration="4503000" />
-      <workItem from="1618568974785" duration="700000" />
+      <workItem from="1618568974785" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="--Fix Actions: Cambiar la version del NetCore">
       <created>1618521652061</created>
@@ -191,7 +190,8 @@
     <MESSAGE value="--Fix Actions: Creando el artefacts y descargandolo para subirlo" />
     <MESSAGE value="--Fix Actions: Actualizando el proyecto de Angular a la version 11" />
     <MESSAGE value="--Fix Actions: Angular SSR" />
-    <option name="LAST_COMMIT_MESSAGE" value="--Fix Actions: Angular SSR" />
+    <MESSAGE value="--Fix Actions: Angular SSR run Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="--Fix Actions: Angular SSR run Test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="70" key="DiffContextDialog" timestamp="1618522659872">
