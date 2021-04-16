@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f435885e-c04b-41c9-bfd1-d4268b926e13" name="Default Changelist" comment="--Fix Actions: Angular SSR">
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unit-front" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-front" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +42,12 @@
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/tsconfig.server.json" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/main.ts" />
-        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" />
         <option value="$PROJECT_DIR$/global.json" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/angular.json" />
         <option value="$PROJECT_DIR$/Angular.SSR.NetCore/Startup.cs" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" />
+        <option value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/src/app/app.component.spec.ts" />
       </list>
     </option>
   </component>
@@ -60,7 +64,7 @@
     <property name="ts.external.directory.path" value="C:\Users\User\Documents\Projects\angular-ssr-net-core\Angular.SSR.NetCore\ClientApp\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Angular.SSR.NetCore: IIS Express">
+  <component name="RunManager" selected="npm.test-headless">
     <configuration name="Angular.SSR.NetCore" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Angular.SSR.NetCore/Angular.SSR.NetCore.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -111,8 +115,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test-headless" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Angular.SSR.NetCore/ClientApp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test-headless" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test-headless" />
         <item itemvalue="npm.serve:ssr" />
         <item itemvalue="npm.build:ssr" />
       </list>
@@ -129,7 +144,7 @@
       <workItem from="1618521608424" duration="7674000" />
       <workItem from="1618529371931" duration="106000" />
       <workItem from="1618529526822" duration="4503000" />
-      <workItem from="1618568974785" duration="338000" />
+      <workItem from="1618568974785" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="--Fix Actions: Cambiar la version del NetCore">
       <created>1618521652061</created>
@@ -183,26 +198,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="70" key="DiffContextDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618522659872" />
-    <state width="1481" height="263" key="GridCell.Tab.0.bottom" timestamp="1618569019695">
+    <state width="1481" height="541" key="GridCell.Tab.0.bottom" timestamp="1618569771515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569019695" />
-    <state width="1481" height="263" key="GridCell.Tab.0.center" timestamp="1618569019695">
+    <state width="1481" height="541" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569771515" />
+    <state width="1481" height="541" key="GridCell.Tab.0.center" timestamp="1618569771515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="263" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569019695" />
-    <state width="1481" height="263" key="GridCell.Tab.0.left" timestamp="1618569019694">
+    <state width="1481" height="541" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569771515" />
+    <state width="1481" height="541" key="GridCell.Tab.0.left" timestamp="1618569771515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="263" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569019694" />
-    <state width="1481" height="263" key="GridCell.Tab.0.right" timestamp="1618569019695">
+    <state width="1481" height="541" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569771515" />
+    <state width="1481" height="541" key="GridCell.Tab.0.right" timestamp="1618569771515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="263" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569019695" />
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618569141124">
+    <state width="1481" height="541" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569771515" />
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618569468610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569141124" />
+    <state x="261" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618569468610" />
     <state x="546" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618521857581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
