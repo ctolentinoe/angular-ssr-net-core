@@ -26,12 +26,12 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ env.NODE_VERSION }}
-          
+
       - name: 'Install Dependency'
         run: npm install
         
-      - name: 'Run Unit Test and Integration Test'
-        run: npm run test-headless
+      - name: 'Install Dependency'
+        run: npm test-headless  
 
       - name: 'Build Angular app'
         run: npm run build
@@ -55,7 +55,24 @@ jobs:
 
       - name: Publish
         run: dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH }}/angularssr'
-          
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: ArtifactsBuild
+          path : ${{ env.AZURE_WEBAPP_PATH }}/angularssr
+
+  publish-app-services:
+    needs: build-net-core
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Download ArtifactsBuild
+        uses: actions/download-artifact@v2
+        with:
+          name: ArtifactsBuild
+          path : ${{ env.AZURE_WEBAPP_PATH }}/angularssr
+
       - name: Deploy to App Service
         uses: azure/webapps-deploy@v2
         with:
